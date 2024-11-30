@@ -37,11 +37,13 @@ pip install fastapi uvicorn
 ## Usage
 
 1. Run the FastAPI application:
+   https://www.youtube.com/watch?v=CdENaxFNQiY
+   
 bash
 uvicorn WebSocket:app --reload
-2. Open `index.html` in your browser to test the WebSocket functionality.
+3. Open `index.html` in your browser to test the WebSocket functionality.
 
-3. Use the WebSocket client to send and receive messages in real-time.
+4. Use the WebSocket client to send and receive messages in real-time.
 
 ## How It Works
 
