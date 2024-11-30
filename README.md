@@ -23,3 +23,43 @@ This repository demonstrates the implementation of WebSockets in a FastAPI appli
 ## Installation
 
 1. Clone the repository:
+bash
+git clone https://github.com/DrMohammedhbi/WebSockets-in-FastAPI.git
+cd WebSockets-in-FastAPI
+2. Create a virtual environment and activate it:
+bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Install the required dependencies:
+bash
+pip install fastapi uvicorn
+
+## Usage
+
+1. Run the FastAPI application:
+bash
+uvicorn WebSocket:app --reload
+2. Open `index.html` in your browser to test the WebSocket functionality.
+
+3. Use the WebSocket client to send and receive messages in real-time.
+
+## How It Works
+
+- The `ConnectionManager` class in `WebSocket.py` manages active WebSocket connections.
+- Clients can connect to the WebSocket endpoint, and messages can be broadcasted to all connected clients.
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out to the repository owner.
+
+---
+
+Happy coding!
